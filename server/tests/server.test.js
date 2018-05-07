@@ -233,7 +233,6 @@ describe('POST /users', () => {
       .end(done);
   });
 
-
   it('should not create user if email in use', (done) => {
     const email = users[1].email;
     const password = 'iamapassword';
