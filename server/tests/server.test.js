@@ -349,6 +349,7 @@ describe('POST /users/login', () => {
   });
 });
 
+
 describe('DELETE /users/me/token', () => {
   it('should remove auth token on logout', (done) => {
     request(app)
