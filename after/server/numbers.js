@@ -18,4 +18,4 @@ list.sort((a, b) =>{
     let c = add[-1] ? b : add[-1]+b;
     add.push(c);
     return add;
-})
+});
