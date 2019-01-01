@@ -7,6 +7,7 @@ const plus = (a, b) => {
     a + b;
 }
 
+
 list.map((a, b) =>{ 
     let c = a + b;
     c = c + b
