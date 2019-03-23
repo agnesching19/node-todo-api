@@ -4,4 +4,3 @@
 
 1. cd ~/mongo/bin
 2. ./mongod --dbpath ~/mongo-data
-
